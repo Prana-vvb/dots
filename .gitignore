@@ -1,0 +1,15 @@
+config/.*
+config/gh/
+config/discord/
+config/yarn/
+config/atlascli/
+config/Beeper/
+config/Electron/
+config/google-chrome/
+config/onlyoffice/
+config/spotify/
+config/libreoffice/
+config/opera/
+config/go/
+config/nextjs-nodejs
+config/pulse/

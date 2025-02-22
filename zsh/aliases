@@ -1,0 +1,11 @@
+alias cat=bat
+alias ls='ls --color=auto'
+alias mkdir='mkdir -p'
+alias v=nvim
+alias vf='nvim $(fzf)'
+alias locate='f() { plocate "$1" | rg "$1"; }; f'
+alias py='python3'
+alias gl='git log --decorate --graph'
+
+alias sem4='cd ~/Documents/Sem\ 4/'
+alias armsim='env DISPLAY=:0 mono ~/Documents/Sem\ 4/MPCA/armsim/ARMSim.exe'
