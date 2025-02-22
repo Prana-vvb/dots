@@ -23,6 +23,11 @@ source ~/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 
+# Alternate if you have a ton of plugins and cba to manually source
+# for p in $HOME/.zsh/plugins/*/*.zsh; do
+#     source $p
+# done
+
 ENABLE_CORRECTION="true"
 
 zstyle ':completion:*' menu select
