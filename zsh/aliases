@@ -7,5 +7,6 @@ alias locate='f() { plocate "$1" | rg "$1"; }; f'
 alias py='python3'
 alias gl='git log --decorate --graph'
 
-alias sem4='cd ~/Documents/Sem\ 4/'
+alias sem4='cd ~/Documents/Sem4/'
+alias study='~/.scripts/study.sh'
 alias armsim='env DISPLAY=:0 mono ~/Documents/Sem\ 4/MPCA/armsim/ARMSim.exe'

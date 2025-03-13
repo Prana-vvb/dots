@@ -1,0 +1,11 @@
+#!/bin/bash
+
+DIR=~/Documents/Sem4/
+
+PDF=$(find "$DIR" -type f -iname "*.pdf" | grep -v "PES2UG23CS928" | fzf)
+
+if [[ -n "$PDF" ]]; then
+    xdg-open "$PDF"
+else
+    echo "No PDF selected!"
+fi
