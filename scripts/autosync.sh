@@ -8,6 +8,7 @@ cd ~/Downloads/dots/
 git status
 
 while true; do
+    echo ""
     read -p "Do you want to commit these changes? (y/n) " yn
 
     case $yn in 
