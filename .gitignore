@@ -3,7 +3,7 @@ config/gh/
 config/discord/
 config/yarn/
 config/atlascli/
-config/Beeper/
+config/Beeper*/
 config/Electron/
 config/google-chrome/
 config/onlyoffice/
@@ -13,3 +13,9 @@ config/opera/
 config/go/
 config/nextjs-nodejs
 config/pulse/
+config/gpick/
+config/qt6ct
+config/rofi/applets/
+config/rofi/launchers/
+config/rofi/powermenu/
+config/ristretto/
