@@ -2,8 +2,7 @@
 
 cp -ru ~/.config/* ~/Downloads/dots/config/
 cp -ru ~/.scripts/* ~/Downloads/dots/scripts/
-cp -ru ~/.zsh/aliases ~/Downloads/dots/zsh/
-cp -ru ~/.zshrc ~/.zshenv ~/Downloads/dots/zsh/
+cp -ru ~/.zsh/aliases ~/.zshrc ~/.zshenv ~/Downloads/dots/zsh/
 cd ~/Downloads/dots/
 git status
 
