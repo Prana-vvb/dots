@@ -1,12 +1,18 @@
 #!/bin/bash
 
-cd ~/Downloads/dots/
-git pull
+DOTS=~/Downloads/dots/
 
-cp -ru ~/.config/* ~/Downloads/dots/config/
-cp -ru ~/.scripts/* ~/Downloads/dots/scripts/
-cp -ru ~/.zsh/aliases ~/.zshrc ~/.zshenv ~/Downloads/dots/zsh/
-git status
+if test -d $DOTS; then
+    cd $DOTS
+    git pull
+else
+    echo "Local dotfiles directory not found. Clone from Prana-vvb/dots"
+fi
+
+cp -ru ~/.config/* $DOTS/config/
+cp -ru ~/.scripts/* $DOTS/scripts/
+cp -ru ~/.zsh/aliases ~/.zshrc ~/.zshenv $DOTS/zsh/
+git status --porcelain
 
 while true; do
     echo ""
@@ -22,6 +28,6 @@ while true; do
             echo "Changes uncommited. Removing newly added files"
             git restore .;
             exit;;
-        * ) echo invalid response;;
+        * ) echo Invalid response;;
     esac
 done
