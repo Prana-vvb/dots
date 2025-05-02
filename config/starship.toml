@@ -34,14 +34,14 @@ symbol = " "
 [fennel]
 symbol = " "
 
-# [fossil_branch]
-# symbol = " "
+[fossil_branch]
+symbol = " "
 
-# [git_branch]
-# symbol = " "
+[git_branch]
+symbol = " "
 
-# [git_commit]
-# tag_symbol = '  '
+[git_commit]
+tag_symbol = '  '
 
 [golang]
 symbol = " "
@@ -55,8 +55,8 @@ symbol = " "
 [haxe]
 symbol = " "
 
-# [hg_branch]
-# symbol = " "
+[hg_branch]
+symbol = " "
 
 [hostname]
 ssh_symbol = " "
@@ -145,8 +145,8 @@ symbol = " "
 [php]
 symbol = " "
 
-# [pijul_channel]
-# symbol = " "
+[pijul_channel]
+symbol = " "
 
 [python]
 symbol = " "
