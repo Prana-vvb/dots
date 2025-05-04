@@ -12,7 +12,7 @@
       <property name="icon-size" type="uint" value="16"/>
       <property name="size" type="uint" value="26"/>
       <property name="plugin-ids" type="array">
-        <value type="int" value="1"/>
+        <value type="int" value="20"/>
         <value type="int" value="2"/>
         <value type="int" value="3"/>
         <value type="int" value="4"/>
@@ -21,19 +21,15 @@
         <value type="int" value="8"/>
         <value type="int" value="9"/>
         <value type="int" value="10"/>
-        <value type="int" value="11"/>
+        <value type="int" value="17"/>
         <value type="int" value="12"/>
-        <value type="int" value="13"/>
+        <value type="int" value="18"/>
         <value type="int" value="14"/>
       </property>
       <property name="background-style" type="uint" value="0"/>
     </property>
   </property>
   <property name="plugins" type="empty">
-    <property name="plugin-1" type="string" value="applicationsmenu">
-      <property name="show-tooltips" type="bool" value="true"/>
-      <property name="button-title" type="string" value="Apps"/>
-    </property>
     <property name="plugin-2" type="string" value="tasklist">
       <property name="grouping" type="uint" value="1"/>
     </property>
@@ -47,10 +43,49 @@
     </property>
     <property name="plugin-5" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="false"/>
     </property>
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “sukruth_5g” active: sukruth_5g (68%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m01a358” active: galaxy m01a358 (61%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m01a358” active: galaxy m01a358 (72%)"/>
+        <value type="string" value="wi-fi network connection “techmax solution 5ghz” active: techmax solution 5ghz (69%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m01a358” active: galaxy m01a358 (82%)"/>
+        <value type="string" value="wi-fi network connection “pesu-ec-campus” active: pesu-ec-campus (56%)"/>
+        <value type="string" value="wi-fi network connection “pesu-ec-campus” active: pesu-ec-campus (59%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m04 1828” active: galaxy m04 1828 (95%)"/>
+        <value type="string" value="wi-fi network connection “sukruth_5g” active: sukruth_5g (66%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m01a358” active: galaxy m01a358 (79%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m01a358” active: galaxy m01a358 (47%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m01a358” active: galaxy m01a358 (63%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m01a358” active: galaxy m01a358 (89%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m01a358” active: galaxy m01a358 (83%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m01a358” active: galaxy m01a358 (77%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m01a358” active: galaxy m01a358 (74%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m01a358” active: galaxy m01a358 (56%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m01a358” active: galaxy m01a358 (88%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m01a358” active: galaxy m01a358 (73%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m01a358” active: galaxy m01a358 (90%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m01a358” active: galaxy m01a358 (52%)"/>
+        <value type="string" value="wi-fi network connection “pesu-ec-campus” active: pesu-ec-campus (66%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m01a358” active: galaxy m01a358 (48%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m04 1828” active: galaxy m04 1828 (77%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m04 1828” active: galaxy m04 1828 (96%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m01a358” active: galaxy m01a358 (76%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m01a358” active: galaxy m01a358 (92%)"/>
+        <value type="string" value="javaembeddedframe"/>
+        <value type="string" value="wi-fi network connection “sukruth_5g” active: sukruth_5g (62%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m01a358” active: galaxy m01a358 (62%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m01a358” active: galaxy m01a358 (54%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m01a358” active: galaxy m01a358 (57%)"/>
+        <value type="string" value="gpick"/>
+        <value type="string" value="wi-fi network connection “galaxy m01a358” active: galaxy m01a358 (80%)"/>
+        <value type="string" value="wi-fi network connection “pesu-ec-campus” active: pesu-ec-campus (60%)"/>
+        <value type="string" value="wi-fi network connection “pesu-ec-campus” active: pesu-ec-campus (68%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m04 1828” active: galaxy m04 1828 (89%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m017162” active: galaxy m017162 (56%)"/>
         <value type="string" value="blueman-tray"/>
         <value type="string" value="wi-fi network connection “galaxy m017162” active: galaxy m017162 (54%)"/>
         <value type="string" value="networkmanager applet"/>
@@ -161,14 +196,11 @@
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
-      <property name="known-players" type="string" value="Beeper;Chromium;firefox;spotify;Spotube"/>
+      <property name="known-players" type="string" value="Beeper;BeeperTexts;Chromium;firefox;spotify;Spotube"/>
       <property name="rec-indicator-persistent" type="bool" value="false"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="notification-plugin"/>
-    <property name="plugin-11" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
     <property name="plugin-12" type="string" value="clock">
       <property name="mode" type="uint" value="2"/>
       <property name="tooltip-format" type="string" value="%A %d %B %Y"/>
@@ -178,9 +210,6 @@
       <property name="digital-time-format" type="string" value="%I:%M %p"/>
       <property name="timezone" type="string" value="Asia/Calcutta"/>
       <property name="digital-date-format" type="string" value="%a, %d %b %Y"/>
-    </property>
-    <property name="plugin-13" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-14" type="string" value="actions">
       <property name="button-title" type="uint" value="1"/>
@@ -194,6 +223,27 @@
     <property name="notes" type="empty">
       <property name="global" type="empty">
         <property name="version" type="string" value="1.11.2"/>
+      </property>
+    </property>
+    <property name="plugin-17" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-18" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-20" type="string" value="systemload">
+      <property name="timeout" type="uint" value="1000"/>
+      <property name="swap" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
+      <property name="memory" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
+      <property name="network" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
+      <property name="cpu" type="empty">
+        <property name="enabled" type="bool" value="false"/>
       </property>
     </property>
   </property>

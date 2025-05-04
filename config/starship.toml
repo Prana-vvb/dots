@@ -171,3 +171,9 @@ symbol = " "
 
 [gradle]
 symbol = " "
+
+[directory.substitutions]
+'Documents' = '󰈙'
+'Downloads' = ' '
+'Music' = ' '
+'Pictures' = ' '
