@@ -6,7 +6,7 @@ if test -d $DOTS; then
     cd $DOTS
     git pull
 else
-    echo "Local dotfiles directory not found. Clone from Prana-vvb/dots"
+    echo "Local dotfiles directory not found. Run git clone --depth 1 github.com/Prana-vvb/dots.git"
 fi
 
 cp -ru ~/.config/* $DOTS/config/
