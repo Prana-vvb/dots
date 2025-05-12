@@ -177,3 +177,6 @@ symbol = " "
 'Downloads' = ' '
 'Music' = ' '
 'Pictures' = ' '
+
+[jobs]
+symbol = ''
