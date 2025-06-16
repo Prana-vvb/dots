@@ -10,9 +10,11 @@ application/x-shellscript=nvim.desktop;
 application/pdf=firefox.desktop;onlyoffice-desktopeditors.desktop;
 audio/vnd.wave=org.xfce.Parole.desktop;spotify-launcher.desktop;
 image/png=nsxiv.desktop;feh.desktop;org.xfce.ristretto.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=onlyoffice-desktopeditors.desktop;
 
 [Default Applications]
 x-scheme-handler/http=xfce4-web-browser.desktop
 x-scheme-handler/https=xfce4-web-browser.desktop
 image/png=org.xfce.ristretto.desktop
 x-scheme-handler/beeper=beepertexts.desktop
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=onlyoffice-desktopeditors.desktop

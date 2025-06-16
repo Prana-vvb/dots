@@ -48,6 +48,25 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “jiofiber-ln5jx_5g” active: jiofiber-ln5jx_5g (58%)"/>
+        <value type="string" value="wi-fi network connection “jiofiber-ln5jx_5g” active: jiofiber-ln5jx_5g (62%)"/>
+        <value type="string" value="wi-fi network connection “jiofiber-ln5jx_5g” active: jiofiber-ln5jx_5g (57%)"/>
+        <value type="string" value="wi-fi network connection “jiofiber-ln5jx_5g” active: jiofiber-ln5jx_5g (59%)"/>
+        <value type="string" value="wi-fi network connection “jiofiber-ln5jx_5g” active: jiofiber-ln5jx_5g (66%)"/>
+        <value type="string" value="wi-fi network connection “jiofiber-ln5jx_5g” active: jiofiber-ln5jx_5g (63%)"/>
+        <value type="string" value="wi-fi network connection “jiofiber-ln5jx_5g” active: jiofiber-ln5jx_5g (65%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m04 1828” active: galaxy m04 1828 (78%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m01a358” active: galaxy m01a358 (78%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m01a358” active: galaxy m01a358 (49%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m01a358” active: galaxy m01a358 (43%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m01a358” active: galaxy m01a358 (53%)"/>
+        <value type="string" value="wi-fi network connection “sukruth_5g” active: sukruth_5g (69%)"/>
+        <value type="string" value="requesting a wi-fi network address for “galaxy m01a358”…"/>
+        <value type="string" value="wi-fi network connection “galaxy m01a358” active: galaxy m01a358 (70%)"/>
+        <value type="string" value="wi-fi network connection “sukruth_5g” active: sukruth_5g (55%)"/>
+        <value type="string" value="wi-fi network connection “sukruth_5g” active: sukruth_5g (63%)"/>
+        <value type="string" value="wi-fi network connection “sukruth_5g” active: sukruth_5g (61%)"/>
+        <value type="string" value="wi-fi network connection “galaxy m01a358” active: galaxy m01a358 (55%)"/>
         <value type="string" value="wi-fi network connection “galaxy m01a358” active: galaxy m01a358 (75%)"/>
         <value type="string" value="wi-fi network connection “galaxy m01a358” active: galaxy m01a358 (60%)"/>
         <value type="string" value="wi-fi network connection “sukruth_5g” active: sukruth_5g (68%)"/>

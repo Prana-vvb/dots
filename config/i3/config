@@ -9,7 +9,7 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-for_window [class = "Mate-calc"] floating enable
+for_window [class = "Mate-calc"] floating enable border pixel 1
 for_window [class = "Xfce4-taskmanager"] floating enable
 # for_window [class = "Xfce4-appfinder"] floating enable
 for_window [class = "Beeper"] border pixel 0

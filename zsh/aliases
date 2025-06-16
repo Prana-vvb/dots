@@ -9,6 +9,8 @@ alias py='python3'
 alias gl='git log --decorate --graph'
 alias locate='f() { plocate "$1" | rg "$1"; }; f'
 alias dotsync='~/.scripts/autosync.sh'
+alias open='xdg-open'
+alias fzf='fzf --style full --preview "$HOME/.scripts/fzf-preview.sh {}"'
 
 alias sem4='cd ~/Documents/Sem4/'
 alias study='~/.scripts/study.sh'

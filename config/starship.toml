@@ -173,6 +173,7 @@ symbol = " "
 symbol = " "
 
 [directory.substitutions]
+'Desktop' = ''
 'Documents' = '󰈙'
 'Downloads' = ' '
 'Music' = ' '

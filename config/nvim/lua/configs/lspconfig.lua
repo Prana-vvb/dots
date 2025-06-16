@@ -5,12 +5,12 @@ local lspconfig = require "lspconfig"
 
 -- EXAMPLE
 local servers = {
-  "asm_lsp",
+  -- "asm_lsp",
   "clangd",
   "cssls",
   "html",
   "pylsp",
-  "rust_analyzer",
+  -- "rust_analyzer",
   "ts_ls",
 }
 

@@ -1,22 +1,7 @@
 {
-  "book_list_pin_splitter_state": {
+  "check-book-splitter-state": {
     "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAEAAAACAAABAAAAAEYA/////wEAAAABAA=="
-  },
-  "cover_grid_background": {
-    "dark": [
-      45,
-      45,
-      45
-    ],
-    "dark_texture": null,
-    "light": [
-      80,
-      80,
-      80
-    ],
-    "light_texture": null,
-    "migrated": true
+    "__value__": "AAAA/wAAAAEAAAACAAAARgAAAEYA/////wEAAAABAA=="
   },
   "custom_colors_for_color_dialog": [
     [
@@ -116,81 +101,38 @@
       255
     ]
   ],
-  "geometry-of-calibre_main_window_geometry": {
-    "frame_geometry": {
-      "height": 1053,
-      "width": 1920,
-      "x": 0,
-      "y": 27
-    },
-    "full_screened": false,
-    "geometry": {
-      "height": 1031,
-      "width": 1916,
-      "x": 2,
-      "y": 47
-    },
-    "maximized": true,
-    "normal_geometry": {
-      "height": 1031,
-      "width": 1916,
-      "x": 2,
-      "y": 47
-    },
-    "qt": {
-      "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAAAAAAAGwAAB38AAAQ3AAAAAgAAAC8AAAd9AAAENQAAAAACAAAAB4AAAAACAAAALwAAB30AAAQ1"
-    },
-    "screen": {
-      "depth": 24,
-      "device_pixel_ratio": 1.0,
-      "geometry_in_logical_pixels": {
-        "height": 1080,
-        "width": 1920,
-        "x": 0,
-        "y": 0
-      },
-      "index_in_screens_list": 0,
-      "manufacturer": "LG Display",
-      "model": "",
-      "name": "eDP-1",
-      "serial": "",
-      "size_in_logical_pixels": {
-        "height": 1080,
-        "width": 1920
-      },
-      "virtual_geometry": {
-        "height": 1080,
-        "width": 1920,
-        "x": 0,
-        "y": 0
-      }
-    }
+  "find-widget-state": {
+    "case_sensitive": false,
+    "direction": "down",
+    "dot_all": false,
+    "mode": "normal",
+    "where": "current",
+    "wrap": true
   },
-  "geometry-of-quickview_dialog_geometry": {
+  "geometry-of-import-foreign-geometry": {
     "frame_geometry": {
-      "height": 1023,
-      "width": 938,
-      "x": 967,
-      "y": 42
+      "height": 205,
+      "width": 626,
+      "x": 639,
+      "y": 409
     },
     "full_screened": false,
     "geometry": {
-      "height": 1001,
-      "width": 934,
-      "x": 969,
-      "y": 62
+      "height": 183,
+      "width": 622,
+      "x": 641,
+      "y": 429
     },
     "maximized": false,
     "normal_geometry": {
-      "height": 1001,
-      "width": 934,
-      "x": 969,
-      "y": 62
+      "height": 183,
+      "width": 622,
+      "x": 641,
+      "y": 429
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAPHAAAAKgAAB3AAAAQoAAADyQAAAD4AAAduAAAEJgAAAAAAAAAAB4AAAAPJAAAAPgAAB24AAAQm"
+      "__value__": "AdnQywADAAAAAAJ/AAABmQAABPAAAAJlAAACgQAAAa0AAATuAAACYwAAAAAAAAAAB4AAAAKBAAABrQAABO4AAAJj"
     },
     "screen": {
       "depth": 24,
@@ -218,46 +160,75 @@
       }
     }
   },
-  "grid view visible": false,
-  "library_usage_stats": {
-    "/home/pvb/Calibre Library": 8
-  },
-  "main_window_central_widget_state": {
-    "layout": "wide",
-    "narrow_desires": {
-      "book_details_height": 0.23051224944320714,
-      "cover_browser_width": 0.34968553459119495,
-      "quick_view_height": 0.2561247216035635,
-      "tag_browser_width": 0.24968553459119497
+  "geometry-of-main_window_geometry": {
+    "frame_geometry": {
+      "height": 505,
+      "width": 938,
+      "x": 967,
+      "y": 560
     },
-    "narrow_visibility": {
-      "book_details": true,
-      "book_list": true,
-      "cover_browser": false,
-      "quick_view": false,
-      "tag_browser": true
+    "full_screened": false,
+    "geometry": {
+      "height": 483,
+      "width": 934,
+      "x": 969,
+      "y": 580
     },
-    "wide_desires": {
-      "book_details_width": 0.3,
-      "cover_browser_height": 0.2854188210961737,
-      "quick_view_height": 0.2378490175801448,
-      "tag_browser_width": 0.3
+    "maximized": false,
+    "normal_geometry": {
+      "height": 483,
+      "width": 934,
+      "x": 969,
+      "y": 580
     },
-    "wide_visibility": {
-      "book_details": true,
-      "book_list": true,
-      "cover_browser": false,
-      "quick_view": false,
-      "tag_browser": true
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAPHAAACMAAAB3AAAAQoAAADyQAAAkQAAAduAAAEJgAAAAAAAAAAB4AAAAPJAAACRAAAB24AAAQm"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "LG Display",
+      "model": "",
+      "name": "eDP-1",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      }
     }
   },
-  "quick_start_guide_added": true,
-  "quickview_dialog_books_table_widths": [
-    289,
-    289,
-    289
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAD9AAAABAAAAAAAAADNAAABkPwCAAAABfsAAAAkAGYAaQBsAGUAcwAtAGIAcgBvAHcAcwBlAHIALQBkAG8AYwBrAQAAAD0AAAGQAAAAWQD////7AAAAHgB0AG8AYwAtAHYAaQBlAHcAZQByAC0AZABvAGMAawAAAAAA/////wAAAFkA////+wAAACAAdABlAHgAdAAtAHMAZQBhAHIAYwBoAC0AZABvAGMAawAAAAAA/////wAAAHkA////+wAAACAAYwBoAGUAYwBrAHAAbwBpAG4AdABzAC0AZABvAGMAawAAAAAA/////wAAAIoA////+wAAACYAcwBhAHYAZQBkAC0AcwBlAGEAcgBjAGgAZQBzAC0AZABvAGMAawAAAAAA/////wAAAgYA////AAAAAQAAAk4AAAGQ/AIAAAAC+wAAABgAcAByAGUAdgBpAGUAdwAtAGQAbwBjAGsBAAAAPQAAAZAAAABRAP////sAAAAaAGwAaQB2AGUALQBjAHMAcwAtAGQAbwBjAGsAAAAAAP////8AAABZAP///wAAAAIAAAAAAAAAAPwBAAAAAfsAAAAeAGMAaABlAGMAawAtAGIAbwBvAGsALQBkAG8AYwBrAAAAAAD/////AAAAkAD///8AAAADAAAAAAAAAAD8AQAAAAH7AAAAHABpAG4AcwBwAGUAYwB0AG8AcgAtAGQAbwBjAGsAAAAAAP////8AAAA0AP///wAAAH8AAAGQAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAMAAAAUAGcAbABvAGIAYQBsAC0AYgBhAHIBAAAAAP////8AAAAAAAAAAAAAABIAdABvAG8AbABzAC0AYgBhAHIBAAABJv////8AAAAAAAAAAAAAABYAcABsAHUAZwBpAG4AcwAtAGIAYQByAAAAAAD/////AAAAAAAAAAA="
+  },
+  "recent-books": [
+    "/home/pvb/Downloads/Interns-2025.epub"
   ],
-  "qv_open_at_shutdown": false,
-  "search bar visible": true,
-  "tag browser search box visible": false
+  "reports-ui-state": {},
+  "saved_seaches_state": {
+    "direction": "down",
+    "where": "current",
+    "wrap": true
+  },
+  "search-panel-visible": false,
+  "text_search_widget_state": {
+    "case_sensitive": false,
+    "dot_all": true,
+    "mode": "normal",
+    "where": "current"
+  }
 }
