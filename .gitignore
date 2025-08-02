@@ -19,3 +19,6 @@ config/rofi/applets/
 config/rofi/launchers/
 config/rofi/powermenu/
 config/ristretto/
+config/*/*.log
+config/dconf/
+config/xfce4/
