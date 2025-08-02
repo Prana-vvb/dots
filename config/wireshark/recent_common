@@ -1,4 +1,4 @@
-# Common recent settings file for Wireshark 4.4.3.
+# Common recent settings file for Wireshark 4.4.5.
 #
 # This file is regenerated each time Wireshark is quit
 # and when changing configuration profile.
@@ -13,6 +13,9 @@ recent.capture_file: /home/pvb/Documents/Sem 4/Sem4/CN/Week2/cn_lab_w2_something
 
 ######## Recent display filters (latest last), cannot be altered through command line ########
 
+recent.display_filter: udp.port==27035
+recent.display_filter: udp.port==2065
+recent.display_filter: udp.port==20605
 recent.display_filter: udp.port==53
 recent.display_filter: udp.port==54321
 recent.display_filter: tcp.port==53
@@ -24,7 +27,7 @@ recent.display_filter: dns.id == 0x6903
 # Decimal numbers.
 gui.geometry_main_x: 0
 gui.geometry_main_y: 0
-gui.geometry_main_width: 945
+gui.geometry_main_width: 1902
 gui.geometry_main_height: 1024
 
 # Main window maximized.
@@ -33,7 +36,7 @@ gui.geometry_main_maximized: false
 
 # Main window geometry state.
 # Hex byte string.
-gui.geometry_main: 01d9d0cb000300000000000000000000000003b0000003ff0000000000000000000003b0000003ff000000000000000007800000000000000000000003b0000003ff
+gui.geometry_main: 01d9d0cb0003000000000000000000000000076d000003ff00000000000000000000076d000003ff0000000000000000078000000000000000000000076d000003ff
 
 # Leftalign Action Buttons.
 # true or false (case-insensitive).

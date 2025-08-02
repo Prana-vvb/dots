@@ -15,6 +15,7 @@ return {
 
   {
     "neovim/nvim-lspconfig",
+
     dependencies = {
       "williamboman/mason.nvim",
       "williamboman/mason-lspconfig.nvim",
@@ -24,6 +25,7 @@ return {
       require "configs.lspconfig"
       require("mason").setup()
       require("mason-lspconfig").setup {
+        automatic_enable = false,
         ensure_installed = {
           "clangd",
           "cssls",
@@ -51,6 +53,12 @@ return {
         sources = { { name = "crates" } },
       }
     end,
+  },
+
+  {
+    "mrcjkb/rustaceanvim",
+    version = "^6",
+    lazy = false,
   },
 
   -- {

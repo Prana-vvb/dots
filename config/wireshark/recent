@@ -1,4 +1,4 @@
-# Recent settings file for Wireshark 4.4.3.
+# Recent settings file for Wireshark 4.4.5.
 #
 # This file is regenerated each time Wireshark is quit
 # and when changing configuration profile.
@@ -99,7 +99,7 @@ gui.geometry_main_upper_pane: 454
 
 # Main window middle pane size.
 # Decimal number.
-gui.geometry_main_lower_pane: 471
+gui.geometry_main_lower_pane: 949
 
 # Main window master splitter state.
 # Hex byte string.

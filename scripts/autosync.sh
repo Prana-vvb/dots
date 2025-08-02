@@ -1,17 +1,32 @@
 #!/bin/bash
 
-DOTS=~/Downloads/dots/
+dots="$HOME/Downloads/dots/"
+user="Prana-vvb"
 
-if test -d $DOTS; then
-    cd $DOTS
+
+if [ -d "$dots" ]; then
+    cd "$dots"
     git pull
 else
-    echo "Local dotfiles directory not found. Run git clone --depth 1 github.com/Prana-vvb/dots.git"
+    echo "Local dotfiles directory not found. Cloning from $user/dots"
+    git clone --depth 1 https://github.com/$user/dots.git $dots
+    cd "$dots"
 fi
 
-cp -ru ~/.config/* $DOTS/config/
-cp -ru ~/.scripts/* $DOTS/scripts/
-cp -ru ~/.zsh/aliases ~/.zshrc ~/.zshenv $DOTS/zsh/
+if [ ! -d .git ]; then
+    echo "Not in a Git repository. Exiting."
+    exit 1
+fi
+
+cp -r "$HOME/.config"/* "$dots/config/"
+cp -r "$HOME/.scripts"/* "$dots/scripts/"
+cp -r "$HOME/.zsh/aliases" "$HOME/.zshrc" "$HOME/.zshenv" "$dots/zsh/"
+
+if [ -z "$(git status --porcelain)" ]; then
+    echo "No changes detected. Exiting."
+    exit 0
+fi
+
 git status --porcelain
 
 while true; do
@@ -23,10 +38,12 @@ while true; do
             git add .
             git commit -m "Auto-sync dotfiles"
             git push -u origin main;
+            git clean -fdx
             break;;
         [nN] )
             echo "Changes uncommited. Removing newly added files"
-            git restore .;
+            git reset --hard
+            git clean -fdx;
             exit;;
         * ) echo Invalid response;;
     esac

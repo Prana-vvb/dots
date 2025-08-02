@@ -113,26 +113,26 @@
     "frame_geometry": {
       "height": 205,
       "width": 626,
-      "x": 639,
-      "y": 409
+      "x": 641,
+      "y": 429
     },
     "full_screened": false,
     "geometry": {
       "height": 183,
       "width": 622,
-      "x": 641,
-      "y": 429
+      "x": 643,
+      "y": 449
     },
     "maximized": false,
     "normal_geometry": {
       "height": 183,
       "width": 622,
-      "x": 641,
-      "y": 429
+      "x": 643,
+      "y": 449
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAJ/AAABmQAABPAAAAJlAAACgQAAAa0AAATuAAACYwAAAAAAAAAAB4AAAAKBAAABrQAABO4AAAJj"
+      "__value__": "AdnQywADAAAAAAKBAAABrQAABPIAAAJ5AAACgwAAAcEAAATwAAACdwAAAAAAAAAAB4AAAAKDAAABwQAABPAAAAJ3"
     },
     "screen": {
       "depth": 24,
@@ -162,19 +162,19 @@
   },
   "geometry-of-main_window_geometry": {
     "frame_geometry": {
-      "height": 505,
-      "width": 938,
-      "x": 967,
-      "y": 560
+      "height": 1033,
+      "width": 1920,
+      "x": 0,
+      "y": 47
     },
     "full_screened": false,
     "geometry": {
-      "height": 483,
-      "width": 934,
-      "x": 969,
-      "y": 580
+      "height": 1031,
+      "width": 1916,
+      "x": 2,
+      "y": 47
     },
-    "maximized": false,
+    "maximized": true,
     "normal_geometry": {
       "height": 483,
       "width": 934,
@@ -183,7 +183,7 @@
     },
     "qt": {
       "__class__": "bytearray",
-      "__value__": "AdnQywADAAAAAAPHAAACMAAAB3AAAAQoAAADyQAAAkQAAAduAAAEJgAAAAAAAAAAB4AAAAPJAAACRAAAB24AAAQm"
+      "__value__": "AdnQywADAAAAAAAAAAAALwAAB38AAAQ3AAADyQAAAkQAAAduAAAEJgAAAAACAAAAB4AAAAACAAAALwAAB30AAAQ1"
     },
     "screen": {
       "depth": 24,
@@ -213,7 +213,7 @@
   },
   "main_window_state": {
     "__class__": "bytearray",
-    "__value__": "AAAA/wAAAAD9AAAABAAAAAAAAADNAAABkPwCAAAABfsAAAAkAGYAaQBsAGUAcwAtAGIAcgBvAHcAcwBlAHIALQBkAG8AYwBrAQAAAD0AAAGQAAAAWQD////7AAAAHgB0AG8AYwAtAHYAaQBlAHcAZQByAC0AZABvAGMAawAAAAAA/////wAAAFkA////+wAAACAAdABlAHgAdAAtAHMAZQBhAHIAYwBoAC0AZABvAGMAawAAAAAA/////wAAAHkA////+wAAACAAYwBoAGUAYwBrAHAAbwBpAG4AdABzAC0AZABvAGMAawAAAAAA/////wAAAIoA////+wAAACYAcwBhAHYAZQBkAC0AcwBlAGEAcgBjAGgAZQBzAC0AZABvAGMAawAAAAAA/////wAAAgYA////AAAAAQAAAk4AAAGQ/AIAAAAC+wAAABgAcAByAGUAdgBpAGUAdwAtAGQAbwBjAGsBAAAAPQAAAZAAAABRAP////sAAAAaAGwAaQB2AGUALQBjAHMAcwAtAGQAbwBjAGsAAAAAAP////8AAABZAP///wAAAAIAAAAAAAAAAPwBAAAAAfsAAAAeAGMAaABlAGMAawAtAGIAbwBvAGsALQBkAG8AYwBrAAAAAAD/////AAAAkAD///8AAAADAAAAAAAAAAD8AQAAAAH7AAAAHABpAG4AcwBwAGUAYwB0AG8AcgAtAGQAbwBjAGsAAAAAAP////8AAAA0AP///wAAAH8AAAGQAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAMAAAAUAGcAbABvAGIAYQBsAC0AYgBhAHIBAAAAAP////8AAAAAAAAAAAAAABIAdABvAG8AbABzAC0AYgBhAHIBAAABJv////8AAAAAAAAAAAAAABYAcABsAHUAZwBpAG4AcwAtAGIAYQByAAAAAAD/////AAAAAAAAAAA="
+    "__value__": "AAAA/wAAAAD9AAAABAAAAAAAAADNAAADtPwCAAAABfsAAAAkAGYAaQBsAGUAcwAtAGIAcgBvAHcAcwBlAHIALQBkAG8AYwBrAQAAAD0AAAO0AAAAWQD////7AAAAHgB0AG8AYwAtAHYAaQBlAHcAZQByAC0AZABvAGMAawAAAAAA/////wAAAFkA////+wAAACAAdABlAHgAdAAtAHMAZQBhAHIAYwBoAC0AZABvAGMAawAAAAAA/////wAAAHkA////+wAAACAAYwBoAGUAYwBrAHAAbwBpAG4AdABzAC0AZABvAGMAawAAAAAA/////wAAAIoA////+wAAACYAcwBhAHYAZQBkAC0AcwBlAGEAcgBjAGgAZQBzAC0AZABvAGMAawAAAAAA/////wAAAgYA////AAAAAQAAAk4AAAO0/AIAAAAC+wAAABgAcAByAGUAdgBpAGUAdwAtAGQAbwBjAGsBAAAAPQAAA7QAAABRAP////sAAAAaAGwAaQB2AGUALQBjAHMAcwAtAGQAbwBjAGsAAAAAAP////8AAABZAP///wAAAAIAAAAAAAAAAPwBAAAAAfsAAAAeAGMAaABlAGMAawAtAGIAbwBvAGsALQBkAG8AYwBrAAAAAAD/////AAAAkAD///8AAAADAAAAAAAAAAD8AQAAAAH7AAAAHABpAG4AcwBwAGUAYwB0AG8AcgAtAGQAbwBjAGsAAAAAAP////8AAAA0AP///wAABFUAAAO0AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAMAAAAUAGcAbABvAGIAYQBsAC0AYgBhAHIBAAAAAP////8AAAAAAAAAAAAAABIAdABvAG8AbABzAC0AYgBhAHIBAAABJv////8AAAAAAAAAAAAAABYAcABsAHUAZwBpAG4AcwAtAGIAYQByAAAAAAD/////AAAAAAAAAAA="
   },
   "recent-books": [
     "/home/pvb/Downloads/Interns-2025.epub"

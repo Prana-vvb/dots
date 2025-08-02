@@ -19,7 +19,7 @@ indicator-thickness=10
 line-color=1f1d2e
 ring-color=191724
 
-key-hl-color=eb6f92
+key-hl-color=1ba492
 bs-hl-color=31748f
 
 separator-color=00000000
@@ -27,13 +27,13 @@ separator-color=00000000
 text-color=e0def4
 text-caps-lock-color=""
 
-line-ver-color=eb6f92
-ring-ver-color=eb6f92
+line-ver-color=000000
+ring-ver-color=31748f
 inside-ver-color=1f1d2e
 text-ver-color=e0def4
 
-ring-wrong-color=31748f
-text-wrong-color=31748f
+ring-wrong-color=eb6f92
+text-wrong-color=eb6f92
 inside-wrong-color=1f1d2e
 
 inside-clear-color=1f1d2e
@@ -45,5 +45,5 @@ line-wrong-color=1f1d2e
 grace=2
 grace-no-mouse
 grace-no-touch
-fade-in=1
+fade-in=0.5
 ignore-empty-password

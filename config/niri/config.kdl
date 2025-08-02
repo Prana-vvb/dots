@@ -17,6 +17,7 @@ binds {
     Mod+RETURN { spawn "kitty"; }
     Mod+D { spawn "bash" "-c" "exec /home/pvb/.config/rofi/launchers/type-4/launcher.sh"; }
     Mod+E { spawn "thunar"; }
+    Mod+T { spawn "cliphist list | rofi -dmenu | cliphist decode | wl-copy"; }
     Ctrl+Alt+L { spawn "swaylock"; }
 
     // Shell scripts execs
@@ -112,10 +113,10 @@ binds {
 
     Mod+Page_Down      { focus-workspace-down; }
     Mod+Page_Up        { focus-workspace-up; }
-    // Mod+U              { focus-workspace-down; }
-    // Mod+I              { focus-workspace-up; }
     Mod+Shift+Page_Down { move-column-to-workspace-down; }
     Mod+Shift+Page_Up   { move-column-to-workspace-up; }
+    // Mod+U              { focus-workspace-down; }
+    // Mod+I              { focus-workspace-up; }
     // Mod+Shift+U         { move-column-to-workspace-down; }
     // Mod+Shift+I         { move-column-to-workspace-up; }
 
@@ -291,10 +292,10 @@ output "HDMI-A-1" {
 
 }
 
-window-rule {
-    match app-id=r#"^org\.wezfurlong\.wezterm$"#
-    default-column-width {}
-}
+// window-rule {
+//     match app-id=r#"^org\.wezfurlong\.wezterm$"#
+//     default-column-width {}
+// }
 
 // Open the Firefox picture-in-picture player as floating by default.
 window-rule {
@@ -302,12 +303,13 @@ window-rule {
     // - host Firefox (app-id is "firefox")
     // - Flatpak Firefox (app-id is "org.mozilla.firefox")
     match app-id=r#"firefox$"# title="^Picture-in-Picture$"
+    match app-id=r#"mate-calc$"#
     open-floating true
 }
 
 window-rule {
     match app-id=r#"firefox$"#
-    match app-id=r#"beeper$"#
+    match app-id=r#"xdg*$"#
     open-maximized true
 }
 
@@ -334,9 +336,11 @@ spawn-at-startup "swww-daemon"
 spawn-at-startup "swww img $HOME/Pictures/EVA.png"
 spawn-at-startup "swayosd-server"
 spawn-at-startup "~/.scripts/swayidle.sh"
+spawn-at-startup "wl-paste --type text --watch cliphist store"
+spawn-at-startup "wl-paste --type image --watch cliphist store"
 // Dark theme
 spawn-at-startup "swaync -c ~/.config/swaync/config.json -s ~/.config/swaync/style.css"
-spawn-at-startup "xwayland-satellite"
+spawn-at-startup "exec xwayland-satellite" "&"
 environment {
     DISPLAY ":0"
 }
