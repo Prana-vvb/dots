@@ -24,6 +24,7 @@ cp -r "$HOME/.zsh/aliases" "$HOME/.zshrc" "$HOME/.zshenv" "$dots/zsh/"
 
 if [ -z "$(git status --porcelain)" ]; then
     echo "No changes detected. Exiting."
+    git clean -fdxq
     exit 0
 fi
 
@@ -38,12 +39,12 @@ while true; do
             git add .
             git commit -m "Auto-sync dotfiles"
             git push -u origin main;
-            git clean -fdx
+            git clean -fdxq
             break;;
         [nN] )
             echo "Changes uncommited. Removing newly added files"
             git reset --hard
-            git clean -fdx;
+            git clean -fdxq;
             exit;;
         * ) echo Invalid response;;
     esac
