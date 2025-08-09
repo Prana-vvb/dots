@@ -22,3 +22,4 @@ config/ristretto/
 config/*/*.log
 config/dconf/
 config/xfce4/
+config/nvim/lazy-lock.json

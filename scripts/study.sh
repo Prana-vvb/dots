@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIR=~/Documents/Sem4/
+DIR=~/Documents/Sem5/
 
 PDF=$(find "$DIR" -type f -iname "*.pdf" | grep -v "PES2UG23CS928" | fzf)
 
