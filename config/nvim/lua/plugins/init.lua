@@ -29,9 +29,9 @@ return {
         ensure_installed = {
           "clangd",
           "cssls",
+          "gopls",
           "html",
           "pylsp",
-          "rust_analyzer",
           "ts_ls",
         },
       }
@@ -62,12 +62,29 @@ return {
   },
 
   -- {
-  -- 	"nvim-treesitter/nvim-treesitter",
-  -- 	opts = {
-  -- 		ensure_installed = {
-  -- 			"vim", "lua", "vimdoc",
-  --      "html", "css"
-  -- 		},
-  -- 	},
+  --   "nvim-treesitter/nvim-treesitter",
+  --   opts = {
+  --     ensure_installed = {
+  --       "vim",
+  --       "lua",
+  --       "vimdoc",
+  --       "bash",
+  --       "c",
+  --       "cpp",
+  --       "css",
+  --       "javascript",
+  --       "html",
+  --       "printf",
+  --       "python",
+  --       "rust",
+  --       "typescript",
+  --       "toml",
+  --       "markdown",
+  --       "markdown_inline",
+  --     },
+  --     highlight = {
+  --       enable = true,
+  --     },
+  --   },
   -- },
 }

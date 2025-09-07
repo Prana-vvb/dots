@@ -8,6 +8,8 @@ local servers = {
   -- "asm_lsp",
   "clangd",
   "cssls",
+  "dockerls",
+  "gopls",
   "html",
   "pylsp",
   -- "rust_analyzer",

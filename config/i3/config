@@ -11,6 +11,7 @@
 
 for_window [class = "Mate-calc"] floating enable border pixel 1
 for_window [class = "Xfce4-taskmanager"] floating enable
+for_window [class = "Xfce4-clipman-history"] floating enable, resize set height 509 width 752, move position center
 # for_window [class = "Xfce4-appfinder"] floating enable
 for_window [class = "Beeper"] border pixel 0
 for_window [class = "Spotify"] border pixel 0
@@ -72,6 +73,7 @@ bindsym $mod+Shift+q kill
 
 # start rofi (a program launcher)
 bindsym $mod+d exec --no-startup-id ~/.config/rofi/launchers/type-4/launcher.sh
+bindsym $mod+period exec --no-startup-id "xfce4-clipman-history"
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a

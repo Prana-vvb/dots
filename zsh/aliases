@@ -1,15 +1,16 @@
+alias v=nvim
+alias cat=bat
 alias ..='cd ..'
 alias ...='cd ../..'
-alias cat=bat
-alias ls='exa --git --icons'
-alias mkdir='mkdir -p'
-alias v=nvim
-alias vf='nvim $(fzf)'
 alias py='python3'
-alias gl='git log --abbrev-commit --color --decorate --pretty --graph'
-alias locate='f() { plocate "$1" | rg "$1"; }; f'
-alias dotsync='~/.scripts/autosync.sh'
 alias open='xdg-open'
+alias mkdir='mkdir -p'
+alias vf='nvim $(fzf)'
+alias ls='exa --git --icons'
+alias tree='tree -CAF --dirsfirst'
+alias dotsync='~/.scripts/autosync.sh'
+alias locate='f() { plocate "$1" | rg "$1"; }; f'
+alias gl='git log --abbrev-commit --color --decorate --pretty --graph'
 alias fzf='fzf --style full --preview "$HOME/.scripts/fzf-preview.sh {}"'
 
 alias sem5='cd ~/Documents/Sem5/'

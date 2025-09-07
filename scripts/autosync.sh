@@ -37,7 +37,7 @@ while true; do
     case $yn in 
         [yY] ) 
             git add .
-            git commit -m "Auto-sync dotfiles"
+            git commit -m "Auto-sync dotfiles: $(date)"
             git push -u origin main;
             git clean -fdxq
             break;;

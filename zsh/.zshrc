@@ -42,3 +42,11 @@ zstyle ':completion:*' completer _complete _ignored _approximate
 #         git pull
 #     fi
 # }
+
+# pnpm
+export PNPM_HOME="/home/pvb/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
