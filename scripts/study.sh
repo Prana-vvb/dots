@@ -2,7 +2,7 @@
 
 DIR=~/Documents/Sem5/
 
-PDF=$(find "$DIR" -type f -iname "*.pdf" | grep -v "PES2UG23CS928" | fzf)
+PDF=$(find "$DIR" -type f -iname "*.pdf" | grep -v "PES2UG23CS928" | grep -v ".venv" | fzf)
 
 if [[ -n "$PDF" ]]; then
     xdg-open "$PDF"
