@@ -43,3 +43,7 @@ config/htop/
 config/kservicemenurc
 config/ktrashrc
 config/QtProject.conf
+config/GitHub Desktop/
+config/configstore/
+config/inkscape/
+config/tailscale/

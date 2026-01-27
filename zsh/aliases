@@ -13,6 +13,7 @@ alias locate='f() { plocate "$1" | rg "$1"; }; f'
 alias gl='git log --abbrev-commit --color --decorate --pretty --graph'
 alias fzf='fzf --style full --preview "$HOME/.scripts/fzf-preview.sh {}"'
 
-alias sem5='cd ~/Documents/Sem5/'
+alias sem6='cd ~/Documents/Sem6/'
+alias cappy='cd ~/Documents/Capstone/'
 alias study='~/.scripts/study.sh'
 alias armsim='mono ~/Documents/Sem4/MPCA/armsim/ARMSim.exe'
